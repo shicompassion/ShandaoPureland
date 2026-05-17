@@ -4,20 +4,12 @@ const { useState, useContext } = React;
 window.HomePage = function HomePage() {
   const t = window.useT();
   const { setPage } = useContext(window.NavContext);
-  const [openQA, setOpenQA] = useState(null);
 
   const newsItems = [
     { date: '2026 · 04 · 15', tag: t('news.tag.teaching'), hot: false, title: t('news.1.title'), excerpt: t('news.1.excerpt'), kind: 'teachings', page: 'archive' },
-    { date: '2026 · 03 · 28', tag: t('news.tag.event'), hot: true,  title: t('news.2.title'), excerpt: t('news.2.excerpt'), kind: 'retreat', page: 'event' },
-    { date: '2026 · 02 · 10', tag: t('news.tag.event'), hot: false, title: t('news.3.title'), excerpt: t('news.3.excerpt'), kind: 'ceremony', page: 'event' },
-    { date: '2026 · 01 · 05', tag: t('news.tag.scripture'), hot: false, title: t('news.4.title'), excerpt: t('news.4.excerpt'), kind: 'scripture', page: 'archive' },
-  ];
-
-  const qaItems = [
-    { date: '2026.04.16', q: t('qa.1.q'), p: t('qa.1.p'), a: t('qa.1.a') },
-    { date: '2026.04.13', q: t('qa.2.q'), p: t('qa.2.p'), a: t('qa.2.a') },
-    { date: '2026.04.09', q: t('qa.3.q'), p: t('qa.3.p'), a: t('qa.3.a') },
-    { date: '2026.04.06', q: t('qa.4.q'), p: t('qa.4.p'), a: t('qa.4.a') },
+    { date: '2026 · 03 · 28', tag: t('news.tag.event'),    hot: true,  title: t('news.2.title'), excerpt: t('news.2.excerpt'), kind: 'retreat',   page: 'archive' },
+    { date: '2026 · 02 · 10', tag: t('news.tag.event'),    hot: false, title: t('news.3.title'), excerpt: t('news.3.excerpt'), kind: 'ceremony',  page: 'archive' },
+    { date: '2026 · 01 · 05', tag: t('news.tag.scripture'),hot: false, title: t('news.4.title'), excerpt: t('news.4.excerpt'), kind: 'scripture', page: 'archive' },
   ];
 
   const heroTitle = t('hero.title').split('\n');
@@ -88,39 +80,7 @@ window.HomePage = function HomePage() {
         </div>
       </section>
 
-      {/* Q&A */}
-      <section className="qa-section" id="qa">
-        <div className="container">
-          <window.SectionHead eyebrow="Dharma Q & A" title={t('qa.title')} subtitle={t('qa.subtitle')} />
-          <div className="qa-list">
-            {qaItems.map((item, i) => (
-              <div key={i} className={`qa-item${openQA === i ? ' open' : ''}`}>
-                <div className="qa-row" onClick={() => setOpenQA(openQA === i ? null : i)}>
-                  <div className="qa-date">{item.date}</div>
-                  <div className="qa-content">
-                    <div className="qa-q-mark">問</div>
-                    <h3>{item.q}</h3>
-                    {openQA !== i && <p className="qa-preview">{item.p}</p>}
-                  </div>
-                  <button className="qa-arrow" aria-label="Expand">
-                    <svg viewBox="0 0 12 12" fill="none">
-                      <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </button>
-                </div>
-                <div className="qa-answer" style={{maxHeight: openQA === i ? '400px' : '0', paddingBottom: openQA === i ? '32px' : '0'}}>
-                  <div className="qa-a-mark">答</div>
-                  <p>{item.a}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="view-all">
-            <a href="#">{t('qa.viewall')}</a>
-          </div>
-        </div>
-      </section>
-
+      {/* Q&A section removed */}
 
     </>
   );

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>大悲精舍 · Dabei Vihara</title>
+<title>善導淨土學院 · Shandao Pureland</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Serif+TC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -146,7 +146,7 @@ section{padding:110px 0;position:relative}
 .btn-ghost:hover{border-color:var(--gold-soft);background:rgba(232,203,132,.08);transform:translateY(-2px)}
 /* Footer */
 footer{background:var(--surface-dark);color:#B8A283;padding:80px 0 30px;font-size:14px;letter-spacing:1.5px}
-.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:60px;padding-bottom:60px;border-bottom:1px solid rgba(201,169,97,.15)}
+.footer-grid{display:grid;grid-template-columns:1.8fr 1fr 1.2fr;gap:60px;padding-bottom:60px;border-bottom:1px solid rgba(201,169,97,.15)}
 footer h4{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:18px;letter-spacing:5px;color:var(--gold-soft);margin-bottom:24px;text-transform:uppercase}
 .footer-brand .brand-title{margin-bottom:22px}
 .footer-brand .cn{font-family:'Noto Serif TC',serif;font-size:24px;letter-spacing:8px;color:var(--cream);font-weight:500}
@@ -321,7 +321,6 @@ footer ul li a:hover{color:var(--gold-soft);padding-left:6px}
 <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
 <script type="text/babel" src="scripts/shared.jsx"></script>
 <script type="text/babel" src="scripts/home.jsx"></script>
-<script type="text/babel" src="scripts/event.jsx"></script>
 <script type="text/babel" src="scripts/archive.jsx"></script>
 <script type="text/babel" src="scripts/downloads.jsx"></script>
 <script type="text/babel">
@@ -372,7 +371,6 @@ function App() {
           <window.Header lang={lang} setLang={setLang} />
           <main key={pageKey} className="page-enter">
             {page === 'home'      && <window.HomePage />}
-            {page === 'event'     && <window.EventPage />}
             {page === 'archive'   && <window.ArchivePage />}
             {page === 'downloads' && <window.DownloadsPage />}
           </main>

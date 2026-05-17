@@ -69,12 +69,12 @@ window.ArchivePage = function ArchivePage() {
           <div className="crumb">
             <a onClick={() => setPage('home')} style={{cursor:'pointer'}}>首頁</a>
             <span className="crumb-sep">／</span>
-            <span>法寶專區</span>
+            <span>法寶結緣</span>
           </div>
           <div className="page-hero-grid">
             <div className="page-hero-text">
-              <span className="eyebrow">Dharma Library</span>
-              <h1>法寶專區<br/><span className="en-sub">Dharma Library of Master Shandao</span></h1>
+              <span className="eyebrow">Dharma Affinity</span>
+              <h1>法寶結緣<br/><span className="en-sub">Dharma Affinity of Master Shandao</span></h1>
               <p className="page-lead">歷年講記、經典註釋、念佛法要、音聲法寶　皆收錄於此。所有法寶免費結緣流通，敬請善自保存、廣為流通。</p>
               <div className="archive-stats">
                 <div className="stat"><span className="n">138</span><span className="l">篇　開示講記</span></div>

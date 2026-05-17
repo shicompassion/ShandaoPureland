@@ -8,9 +8,9 @@ window.NavContext = createContext({ page: 'home', setPage: () => {} });
 window.I18N = {
   'zh-Hant': {
     'top.greeting': '南無阿彌陀佛 · 歡迎您蒞臨本道場',
-    'brand.cn': '大悲精舍',
-    'nav.home': '首頁', 'nav.master': '善導大師', 'nav.archive': '法寶專區',
-    'nav.events': '共修活動', 'nav.qa': '問答釋疑', 'nav.news': '最新消息', 'nav.support': '護持道場', 'nav.downloads': '下載專區',
+    'brand.cn': '善導淨土學院', 'brand.en': 'Shandao Pureland',
+    'nav.home': '首頁', 'nav.master': '善導大師', 'nav.archive': '法寶結緣',
+    'nav.news': '最新消息', 'nav.downloads': '下載專區',
     'hero.label.cn': '善導大師', 'hero.label.en': 'Master Shandao',
     'hero.title': '二河白道　一心直來\n正念護持　必無死難',
     'hero.q1': '東岸忽聞人勸聲：', 'hero.q1a': '仁者，但決定尋此道行，必無死難！若住，即死。',
@@ -48,15 +48,14 @@ window.I18N = {
     'aff.body': '隨喜護持三寶，共成無上菩提。\n凡有緣參與法寶結緣、道場護持者，皆可來函洽詢，亦歡迎親臨道場共修。',
     'aff.cta1': '法寶結緣', 'aff.cta2': '護持道場',
     'footer.tagline': '以法為依，以戒為師。隨緣度眾，常轉法輪，願一切有情同登覺岸。',
-    'footer.address': '雲林縣古坑鄉華南村 47之1號',
-    'footer.copy': '© 2026 大悲精舍 Dabei Vihara · 網站內容歡迎轉載　並請註明出處',
+    'footer.copy': '© 2026 善導淨土學院 Shandao Pureland · 網站內容歡迎轉載　並請註明出處',
     'mural.caption': '二河白道圖'
   },
   'zh-Hans': {
     'top.greeting': '南无阿弥陀佛 · 欢迎您莅临本道场',
-    'brand.cn': '大悲精舍',
-    'nav.home': '首页', 'nav.master': '善导大师', 'nav.archive': '法宝专区',
-    'nav.events': '共修活动', 'nav.qa': '问答释疑', 'nav.news': '最新消息', 'nav.support': '护持道场', 'nav.downloads': '下载专区',
+    'brand.cn': '善导净土学院', 'brand.en': 'Shandao Pureland',
+    'nav.home': '首页', 'nav.master': '善导大师', 'nav.archive': '法宝结缘',
+    'nav.news': '最新消息', 'nav.downloads': '下载专区',
     'hero.label.cn': '善导大师', 'hero.label.en': 'Master Shandao',
     'hero.title': '二河白道　一心直来\n正念护持　必无死难',
     'hero.q1': '东岸忽闻人劝声：', 'hero.q1a': '仁者，但决定寻此道行，必无死难！若住，即死。',
@@ -93,15 +92,14 @@ window.I18N = {
     'aff.body': '随喜护持三宝，共成无上菩提。\n凡有缘参与法宝结缘、道场护持者，皆可来函洽询，亦欢迎亲临道场共修。',
     'aff.cta1': '法宝结缘', 'aff.cta2': '护持道场',
     'footer.tagline': '以法为依，以戒为师。随缘度众，常转法轮，愿一切有情同登觉岸。',
-    'footer.address': '云林县古坑乡华南村 47之1号',
-    'footer.copy': '© 2026 大悲精舍 Dabei Vihara · 网站内容欢迎转载　并请注明出处',
+    'footer.copy': '© 2026 善导净土学院 Shandao Pureland · 网站内容欢迎转载　并请注明出处',
     'mural.caption': '二河白道图'
   },
   'en': {
-    'top.greeting': 'Namo Amitābha · Welcome to Dabei Vihara',
-    'brand.cn': 'Dabei Vihara',
-    'nav.home': 'Home', 'nav.master': 'Master Shandao', 'nav.archive': 'Dharma Library',
-    'nav.events': 'Retreats', 'nav.qa': 'Q & A', 'nav.news': 'News', 'nav.support': 'Support', 'nav.downloads': 'Downloads',
+    'top.greeting': 'Namo Amitābha · Welcome to Shandao Pureland',
+    'brand.cn': 'Shandao Pureland', 'brand.en': 'Shandao Pureland',
+    'nav.home': 'Home', 'nav.master': 'Master Shandao', 'nav.archive': 'Dharma Affinity',
+    'nav.news': 'News', 'nav.downloads': 'Downloads',
     'hero.label.cn': 'Master Shandao', 'hero.label.en': '善導大師',
     'hero.title': 'Two Rivers, One White Path —\nwalk straight, and no death shall come.',
     'hero.q1': 'From the eastern bank a voice urges:', 'hero.q1a': 'Traveler — resolve to walk this path, and you shall not perish. To stay is to die.',
@@ -138,8 +136,7 @@ window.I18N = {
     'aff.body': 'In supporting the Three Jewels, we walk together toward awakening.\nAll are welcome to request dharma materials, support the temple, or practice with us in person.',
     'aff.cta1': 'Request Dharma', 'aff.cta2': 'Support Us',
     'footer.tagline': 'Taking Dharma as refuge, taking Precepts as teacher. May all beings cross together to the farther shore.',
-    'footer.address': 'No. 47-1, Huanan Village, Gukeng, Yunlin, Taiwan',
-    'footer.copy': '© 2026 Dabei Vihara · Content may be shared freely with attribution.',
+    'footer.copy': '© 2026 Shandao Pureland · Content may be shared freely with attribution.',
     'mural.caption': 'Two Rivers & White Path'
   }
 };
@@ -203,7 +200,6 @@ window.TopBar = function TopBar({ lang, setLang }) {
         <div className="left"><span>{t('top.greeting')}</span></div>
         <div className="topbar-right">
           <a href="mailto:shicompassion@gmail.com">shicompassion@gmail.com</a>
-          <a href="tel:+88655901297">(05) 590 1297</a>
           <div className="lang-toggle">
             {['zh-Hant', 'zh-Hans', 'en'].map((l, i) =>
             <React.Fragment key={l}>
@@ -227,9 +223,6 @@ window.Header = function Header({ lang, setLang }) {
   const navItems = [
   { key: 'home',      label: t('nav.home') },
   { key: 'master',    label: t('nav.master'),    anchor: 'master' },
-  { key: 'news',      label: t('nav.news'),      anchor: 'news' },
-  { key: 'qa',        label: t('nav.qa'),        anchor: 'qa' },
-  { key: 'event',     label: t('nav.events') },
   { key: 'archive',   label: t('nav.archive') },
   { key: 'downloads', label: t('nav.downloads') }];
 
@@ -258,7 +251,7 @@ window.Header = function Header({ lang, setLang }) {
         <a className="logo" onClick={() => {setPage('home');setOpen(false);}} style={{ cursor: 'pointer' }}>
           <div className="logo-text">
             <div className="cn" style={{ textAlign: "center" }}>{t('brand.cn')}</div>
-            <div className="en" style={{ textAlign: "center" }}>Dabei Vihara</div>
+            <div className="en" style={{ textAlign: "center" }}>{t('brand.en')}</div>
           </div>
         </a>
         <nav className={open ? 'open' : ''}>
@@ -294,32 +287,21 @@ window.Footer = function Footer() {
           <div className="footer-brand">
             <div className="brand-title">
               <div className="cn">{t('brand.cn')}</div>
-              <div className="en">Dabei Vihara</div>
+              <div className="en">{t('brand.en')}</div>
             </div>
-            <p>{t('footer.tagline')}</p>
           </div>
           <div>
             <h4>Navigate</h4>
             <ul>
               <li><a onClick={() => setPage('home')} style={{ cursor: 'pointer' }}>{t('nav.home')}</a></li>
               <li><a onClick={() => setPage('archive')} style={{ cursor: 'pointer' }}>{t('nav.archive')}</a></li>
-              <li><a onClick={() => setPage('event')} style={{ cursor: 'pointer' }}>{t('nav.events')}</a></li>
-              <li><a href="#news">{t('nav.news')}</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Practice</h4>
-            <ul>
-              <li><a onClick={() => setPage('event')} style={{ cursor: 'pointer' }}>{t('nav.events')}</a></li>
-              <li><a href="#qa">{t('nav.qa')}</a></li>
-              <li><a href="#affinity">{t('aff.cta1')}</a></li>
+              <li><a onClick={() => setPage('downloads')} style={{ cursor: 'pointer' }}>{t('nav.downloads')}</a></li>
             </ul>
           </div>
           <div className="contact-info">
             <h4>Contact</h4>
-            <p>{t('footer.address')}</p>
-            <p><a href="tel:+88655901297">(05) 590 1297</a></p>
             <p><a href="mailto:shicompassion@gmail.com">shicompassion@gmail.com</a></p>
+            <p><a href="https://www.youtube.com/@Shicompassion" target="_blank" rel="noopener">YouTube · @Shicompassion</a></p>
           </div>
         </div>
         <div className="copyright">
