@@ -7,10 +7,16 @@ window.NavContext = createContext({ page: 'home', setPage: () => {} });
 
 window.I18N = {
   'zh-Hant': {
-    'top.greeting': '南無阿彌陀佛 · 歡迎您蒞臨本道場',
-    'brand.cn': '善導淨土學院', 'brand.en': 'Shandao Pureland',
+    'top.greeting': '南無阿彌陀佛 · 歡迎您蒞臨',
+    'brand.cn': '善導淨土講堂', 'brand.en': 'Shandao Pureland',
     'nav.home': '首頁', 'nav.master': '善導大師', 'nav.archive': '法寶結緣',
     'nav.news': '最新消息', 'nav.downloads': '下載專區',
+    'nav.cat.lectures': '法音宣講', 'nav.cat.lizan': '禮讚教學', 'nav.cat.erhe': '二河圖賞析',
+    'nav.cat.master': '善導大師',
+    'dl.lead.master': '善導大師「善導十德」相關電子檔與講經音檔，敬請隨喜下載、用心薫修。',
+    'dl.lead.lectures': '《往生禮讚》與《觀經要義》之講經影音、課本講義與圖檔，依影片、音檔、圖檔、電子檔分門別類，敬請隨喜下載、用心薰修。',
+    'dl.lead.lizan': '《往生禮讚》共修禮讚教學影片，備有繁體與簡體版本，敬請隨喜觀看、依教奉行。',
+    'dl.lead.erhe': '善導大師〈二河白道〉喻之文字解說、原文與全圖賞析，圖文相映，助發信願、直往西方。',
     'hero.label.cn': '善導大師', 'hero.label.en': 'Master Shandao',
     'hero.title': '二河白道　一心直來\n正念護持　必無死難',
     'hero.q1': '東岸忽聞人勸聲：', 'hero.q1a': '仁者，但決定尋此道行，必無死難！若住，即死。',
@@ -19,16 +25,12 @@ window.I18N = {
     'hero.meta.lineage': '淨土宗二祖傳承', 'hero.meta.retreat': '春季念佛共修',
     'hero.img.caption': '西方三聖 · 接引圖',
     'news.title': '最新消息', 'news.subtitle': 'Tidings from the Sangha',
-    'news.tag.teaching': '開示', 'news.tag.event': '法會', 'news.tag.scripture': '法寶',
-    'news.1.title': '《觀無量壽佛經》系列講座　影音檔上架通告',
-    'news.1.excerpt': '近期圓滿《觀無量壽佛經》之系列開示，影音與講記皆已上傳，敬邀十方大德聞法薰修。',
-    'news.2.title': '春季念佛共修　即日起開放報名',
-    'news.2.excerpt': '為期七日之念佛共修，將於五月上旬於本道場舉辦，歡迎初學與久修行者參加共修。',
-    'news.3.title': '新春普佛法會　圓滿結束',
-    'news.3.excerpt': '本年度新春普佛法會已圓滿，感恩諸位護法居士前來護持，法會現場迴向功德文亦已同步發佈。',
-    'news.4.title': '《阿彌陀經》講記　新書流通通啟',
-    'news.4.excerpt': '《佛說阿彌陀經》講記集結成書，免費結緣流通，歡迎來函索閱，數量有限，贈完為止。',
-    'news.viewall': '瀏覽所有法寶 / View All →',
+    'news.tag.teaching': '開示', 'news.tag.event': '法會', 'news.tag.scripture': '法寶', 'news.tag.upload': '新檔上架',
+    'news.1.title': '《往生禮讚》共修　雲端資料夾正式啟用',
+    'news.1.excerpt': '《往生禮讚》共修專區現已開放下載，內含禮讚教學影片（繁、簡兩版）、成慈法師宣講共二十五集音檔與課本講義、行門共修流程及地鐘念佛影片、現場錄音，並附二河白道圖與偈頌法語電子檔，敬請隨喜下載、用心修持。',
+    'news.2.title': '《觀經要義》課程資料　雲端資料夾正式啟用',
+    'news.2.excerpt': '《觀經要義》專區現已開放下載，收錄完整十二集講座音檔、補充講義（內文、目錄、封面電子檔）、《二河白道圖》賞析文字與圖檔，並附現場上課實況相片，歡迎十方大德聞法薰修。',
+    'news.viewall': '前往下載專區 / View Downloads →',
     'qa.title': '問答釋疑', 'qa.subtitle': 'Questions of the Path',
     'qa.1.q': '如何在日常生活中保持正念？',
     'qa.1.p': '正念並非只在靜坐時方起，亦在行住坐臥、語默動靜之間。於日用之中，時時覺照心念之起滅，不隨境轉，不著相生…',
@@ -48,14 +50,20 @@ window.I18N = {
     'aff.body': '隨喜護持三寶，共成無上菩提。\n凡有緣參與法寶結緣、道場護持者，皆可來函洽詢，亦歡迎親臨道場共修。',
     'aff.cta1': '法寶結緣', 'aff.cta2': '護持道場',
     'footer.tagline': '以法為依，以戒為師。隨緣度眾，常轉法輪，願一切有情同登覺岸。',
-    'footer.copy': '© 2026 善導淨土學院 Shandao Pureland · 網站內容歡迎轉載　並請註明出處',
+    'footer.copy': '© 2026 善導淨土講堂 Shandao Pureland · 網站內容歡迎轉載　並請註明出處',
     'mural.caption': '二河白道圖'
   },
   'zh-Hans': {
-    'top.greeting': '南无阿弥陀佛 · 欢迎您莅临本道场',
-    'brand.cn': '善导净土学院', 'brand.en': 'Shandao Pureland',
+    'top.greeting': '南无阿弥陀佛 · 欢迎您莅临',
+    'brand.cn': '善导净土讲堂', 'brand.en': 'Shandao Pureland',
     'nav.home': '首页', 'nav.master': '善导大师', 'nav.archive': '法宝结缘',
     'nav.news': '最新消息', 'nav.downloads': '下载专区',
+    'nav.cat.lectures': '法音宣讲', 'nav.cat.lizan': '礼赞教学', 'nav.cat.erhe': '二河图赏析',
+    'nav.cat.master': '善导大师',
+    'dl.lead.master': '善导大师“善导十德”相关电子档与讲经音档，敬请随喜下载、用心薫修。',
+    'dl.lead.lectures': '《往生礼赞》与《观经要义》之讲经影音、课本讲义与图档，依影片、音档、图档、电子档分门别类，敬请随喜下载、用心薰修。',
+    'dl.lead.lizan': '《往生礼赞》共修礼赞教学影片，备有繁体与简体版本，敬请随喜观看、依教奉行。',
+    'dl.lead.erhe': '善导大师〈二河白道〉喻之文字解说、原文与全图赏析，图文相映，助发信愿、直往西方。',
     'hero.label.cn': '善导大师', 'hero.label.en': 'Master Shandao',
     'hero.title': '二河白道　一心直来\n正念护持　必无死难',
     'hero.q1': '东岸忽闻人劝声：', 'hero.q1a': '仁者，但决定寻此道行，必无死难！若住，即死。',
@@ -64,16 +72,12 @@ window.I18N = {
     'hero.meta.lineage': '净土宗二祖传承', 'hero.meta.retreat': '春季念佛共修',
     'hero.img.caption': '西方三圣 · 接引图',
     'news.title': '最新消息', 'news.subtitle': 'Tidings from the Sangha',
-    'news.tag.teaching': '开示', 'news.tag.event': '法会', 'news.tag.scripture': '法宝',
-    'news.1.title': '《观无量寿佛经》系列讲座　影音档上架通告',
-    'news.1.excerpt': '近期圆满《观无量寿佛经》之系列开示，影音与讲记皆已上传，敬邀十方大德闻法薰修。',
-    'news.2.title': '春季念佛共修　即日起开放报名',
-    'news.2.excerpt': '为期七日之念佛共修，将于五月上旬于本道场举办，欢迎初学与久修行者参加共修。',
-    'news.3.title': '新春普佛法会　圆满结束',
-    'news.3.excerpt': '本年度新春普佛法会已圆满，感恩诸位护法居士前来护持，法会现场回向功德文亦已同步发布。',
-    'news.4.title': '《阿弥陀经》讲记　新书流通通启',
-    'news.4.excerpt': '《佛说阿弥陀经》讲记集结成书，免费结缘流通，欢迎来函索阅，数量有限，赠完为止。',
-    'news.viewall': '浏览所有法宝 / View All →',
+    'news.tag.teaching': '开示', 'news.tag.event': '法会', 'news.tag.scripture': '法宝', 'news.tag.upload': '新档上架',
+    'news.1.title': '《往生礼赞》共修　云端资料夹正式启用',
+    'news.1.excerpt': '《往生礼赞》共修专区现已开放下载，内含礼赞教学影片（繁、简两版）、成慈法师宣讲共二十五集音档与课本讲义、行门共修流程及地钟念佛影片、现场录音，并附二河白道图与偈颂法语电子档，敬请随喜下载、用心修持。',
+    'news.2.title': '《观经要义》课程资料　云端资料夹正式启用',
+    'news.2.excerpt': '《观经要义》专区现已开放下载，收录完整十二集讲座音档、补充讲义（内文、目录、封面电子档）、《二河白道图》赏析文字与图档，并附现场上课实况相片，欢迎十方大德闻法薰修。',
+    'news.viewall': '前往下载专区 / View Downloads →',
     'qa.title': '问答释疑', 'qa.subtitle': 'Questions of the Path',
     'qa.1.q': '如何在日常生活中保持正念？',
     'qa.1.p': '正念并非只在静坐时方起，亦在行住坐卧、语默动静之间…',
@@ -92,7 +96,7 @@ window.I18N = {
     'aff.body': '随喜护持三宝，共成无上菩提。\n凡有缘参与法宝结缘、道场护持者，皆可来函洽询，亦欢迎亲临道场共修。',
     'aff.cta1': '法宝结缘', 'aff.cta2': '护持道场',
     'footer.tagline': '以法为依，以戒为师。随缘度众，常转法轮，愿一切有情同登觉岸。',
-    'footer.copy': '© 2026 善导净土学院 Shandao Pureland · 网站内容欢迎转载　并请注明出处',
+    'footer.copy': '© 2026 善导净土讲堂 Shandao Pureland · 网站内容欢迎转载　并请注明出处',
     'mural.caption': '二河白道图'
   },
   'en': {
@@ -100,6 +104,12 @@ window.I18N = {
     'brand.cn': 'Shandao Pureland', 'brand.en': 'Shandao Pureland',
     'nav.home': 'Home', 'nav.master': 'Master Shandao', 'nav.archive': 'Dharma Affinity',
     'nav.news': 'News', 'nav.downloads': 'Downloads',
+    'nav.cat.lectures': 'Dharma Lectures', 'nav.cat.lizan': 'Lizan Teaching', 'nav.cat.erhe': 'Two Rivers Diagram',
+    'nav.cat.master': 'Master Shandao',
+    'dl.lead.master': 'Documents and lecture audio on the “Ten Virtues of Master Shandao” — available for download.',
+    'dl.lead.lectures': 'Lecture audio and video, course texts, notes, and images for the Wangsheng Lizan and Guanjing Yaoyi series — organized by video, audio, images, and documents.',
+    'dl.lead.lizan': 'Teaching videos for the Wangsheng Lizan group practice, available in both Traditional and Simplified Chinese editions.',
+    'dl.lead.erhe': 'Master Shandao\u2019s Parable of the Two Rivers and the White Path — written explanation, original text, and the full diagram for contemplation.',
     'hero.label.cn': 'Master Shandao', 'hero.label.en': '善導大師',
     'hero.title': 'Two Rivers, One White Path —\nwalk straight, and no death shall come.',
     'hero.q1': 'From the eastern bank a voice urges:', 'hero.q1a': 'Traveler — resolve to walk this path, and you shall not perish. To stay is to die.',
@@ -108,16 +118,12 @@ window.I18N = {
     'hero.meta.lineage': '2nd Patriarch, Pure Land', 'hero.meta.retreat': 'Seven-day Spring Retreat',
     'hero.img.caption': 'The Three Sages of the Western Pure Land',
     'news.title': 'Latest News', 'news.subtitle': 'Tidings from the Sangha',
-    'news.tag.teaching': 'Teaching', 'news.tag.event': 'Retreat', 'news.tag.scripture': 'Sutra',
-    'news.1.title': 'Contemplation Sutra Lecture Series — Audio Now Available',
-    'news.1.excerpt': 'The recent lecture series on the Contemplation Sutra has concluded. Audio and written notes are now posted for all to study.',
-    'news.2.title': 'Spring Nianfo Retreat — Registration Open',
-    'news.2.excerpt': 'Our seven-day nianfo retreat will be held early May. New and experienced practitioners are warmly invited to join.',
-    'news.3.title': "New Year Pūjā — Completed with Merit",
-    'news.3.excerpt': 'The New Year pūjā has concluded. Deep gratitude to all who supported — the dedication text is now available.',
-    'news.4.title': 'Amitābha Sūtra Commentary — New Edition',
-    'news.4.excerpt': 'The commentary on the Amitābha Sūtra is now in print. Free copies available by request while supplies last.',
-    'news.viewall': 'Browse the full archive →',
+    'news.tag.teaching': 'Teaching', 'news.tag.event': 'Retreat', 'news.tag.scripture': 'Sutra', 'news.tag.upload': 'New Upload',
+    'news.1.title': 'Wangsheng Lizan Practice Folder — Now Available',
+    'news.1.excerpt': 'The Wangsheng Lizan (Praise of Rebirth) shared folder is now open. It contains teaching videos in Traditional and Simplified Chinese, Master Chengci\'s twenty-five-part audio commentary with study notes, the six-time practice flow with floor-bell nianfo video and on-site recordings, plus the Two Rivers White Path diagram and gāthā recitation files.',
+    'news.2.title': 'Guanjing Yaoyi Course Materials — Now Available',
+    'news.2.excerpt': 'The Guanjing Yaoyi (Essentials of the Contemplation Sutra) shared folder is now open. It includes the complete twelve-part lecture audio, supplementary notes (text, table of contents, and cover), the Two Rivers White Path appreciation essay with images, and photographs from the in-person sessions.',
+    'news.viewall': 'Go to Downloads →',
     'qa.title': 'Dharma Q & A', 'qa.subtitle': 'Questions of the Path',
     'qa.1.q': 'How can one sustain mindfulness in daily life?',
     'qa.1.p': 'Mindfulness does not arise only in seated meditation; it lives in walking, sitting, speaking, and silence alike…',
@@ -220,11 +226,15 @@ window.Header = function Header({ lang, setLang }) {
   const t = window.useT();
   const { page, setPage } = useContext(window.NavContext);
   const [open, setOpen] = useState(false);
+  const dlData = window.DOWNLOAD_DATA || [];
+  const TYPE_EN = { '影片': 'Video', '音檔': 'Audio', '圖檔': 'Images', '電子檔': 'Documents' };
   const navItems = [
   { key: 'home',      label: t('nav.home') },
-  { key: 'master',    label: t('nav.master'),    anchor: 'master' },
-  { key: 'archive',   label: t('nav.archive') },
-  { key: 'downloads', label: t('nav.downloads') }];
+  { key: 'master',    label: t('nav.master'),    dd: 'master' },
+  { key: 'lectures',  label: t('nav.cat.lectures'), dd: 'lectures' },
+  { key: 'lizan',     label: t('nav.cat.lizan'),    dd: 'lizan' },
+  { key: 'erhe',      label: t('nav.cat.erhe'),     dd: 'erhe' },
+  { key: 'archive',   label: t('nav.archive') }];
 
 
   function handleNav(item) {
@@ -240,9 +250,14 @@ window.Header = function Header({ lang, setLang }) {
         const el = document.getElementById(item.anchor);
         if (el) el.scrollIntoView({ block: 'start' });
       }
-    } else if (item.key !== 'master') {
+    } else {
       setPage(item.key);
     }
+  }
+
+  function goSection(catId, anchor) {
+    setOpen(false);
+    setPage(catId, anchor);
   }
 
   return (
@@ -256,17 +271,33 @@ window.Header = function Header({ lang, setLang }) {
         </a>
         <nav className={open ? 'open' : ''}>
           <ul>
-            {navItems.map((item) =>
-            <li key={item.key}>
+            {navItems.map((item) => {
+              const cat = item.dd ? dlData.find((c) => c.id === item.dd) : null;
+              return (
+              <li key={item.key} className={cat ? 'has-dd' : ''}>
                 <a
                 className={!item.anchor && page === item.key ? 'active' : ''}
                 onClick={() => handleNav(item)}
                 style={{ cursor: 'pointer' }}>
-                
-                  {item.label}
+                  {item.label}{cat ? <span className="dd-caret">▾</span> : null}
                 </a>
-              </li>
-            )}
+                {cat &&
+                <div className="nav-dd">
+                    {cat.groups.map((g, gi) =>
+                  <div className="dd-col" key={gi}>
+                        <div className="dd-b"><span className="b-zh">{g.b}</span><span className="b-en">{TYPE_EN[g.b] || ''}</span></div>
+                        {g.sections.map((s, si) =>
+                    <a key={si} className="dd-c" onClick={(e) => {e.stopPropagation();goSection(item.dd, gi + '-' + si);}}>
+                            {lang === 'en' && window.SECTION_EN && window.SECTION_EN[s.c] ? window.SECTION_EN[s.c] : s.c}
+                          </a>
+                    )}
+                      </div>
+                  )}
+                  </div>
+                }
+              </li>);
+
+            })}
           </ul>
         </nav>
         <button className="menu-btn" aria-label="Menu" onClick={() => setOpen((o) => !o)}>
@@ -294,8 +325,10 @@ window.Footer = function Footer() {
             <h4>Navigate</h4>
             <ul>
               <li><a onClick={() => setPage('home')} style={{ cursor: 'pointer' }}>{t('nav.home')}</a></li>
+              <li><a onClick={() => setPage('lectures')} style={{ cursor: 'pointer' }}>{t('nav.cat.lectures')}</a></li>
+              <li><a onClick={() => setPage('lizan')} style={{ cursor: 'pointer' }}>{t('nav.cat.lizan')}</a></li>
+              <li><a onClick={() => setPage('erhe')} style={{ cursor: 'pointer' }}>{t('nav.cat.erhe')}</a></li>
               <li><a onClick={() => setPage('archive')} style={{ cursor: 'pointer' }}>{t('nav.archive')}</a></li>
-              <li><a onClick={() => setPage('downloads')} style={{ cursor: 'pointer' }}>{t('nav.downloads')}</a></li>
             </ul>
           </div>
           <div className="contact-info">

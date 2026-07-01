@@ -6,10 +6,8 @@ window.HomePage = function HomePage() {
   const { setPage } = useContext(window.NavContext);
 
   const newsItems = [
-    { date: '2026 · 04 · 15', tag: t('news.tag.teaching'), hot: false, title: t('news.1.title'), excerpt: t('news.1.excerpt'), kind: 'teachings', page: 'archive' },
-    { date: '2026 · 03 · 28', tag: t('news.tag.event'),    hot: true,  title: t('news.2.title'), excerpt: t('news.2.excerpt'), kind: 'retreat',   page: 'archive' },
-    { date: '2026 · 02 · 10', tag: t('news.tag.event'),    hot: false, title: t('news.3.title'), excerpt: t('news.3.excerpt'), kind: 'ceremony',  page: 'archive' },
-    { date: '2026 · 01 · 05', tag: t('news.tag.scripture'),hot: false, title: t('news.4.title'), excerpt: t('news.4.excerpt'), kind: 'scripture', page: 'archive' },
+    { date: '2026 · 04 · 28', tag: t('news.tag.upload'), hot: true,  title: t('news.1.title'), excerpt: t('news.1.excerpt'), kind: 'teachings', page: 'lectures' },
+    { date: '2026 · 02 · 15', tag: t('news.tag.upload'), hot: false, title: t('news.2.title'), excerpt: t('news.2.excerpt'), kind: 'scripture', page: 'lectures' },
   ];
 
   const heroTitle = t('hero.title').split('\n');
@@ -75,7 +73,7 @@ window.HomePage = function HomePage() {
             ))}
           </div>
           <div className="view-all">
-            <a onClick={() => setPage('archive')} style={{cursor:'pointer'}}>{t('news.viewall')}</a>
+            <a onClick={() => setPage('lectures')} style={{cursor:'pointer'}}>{t('news.viewall')}</a>
           </div>
         </div>
       </section>
